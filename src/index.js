@@ -12,8 +12,18 @@ const onClickAdd = () => {
   const span = document.createElement("span");
   span.innerText = inputText;
 
+  // button（完了）タグ生成
+  const completeButton = document.createElement("button");
+  completeButton.innerText = "完了";
+
+  // button（削除）タグ生成
+  const deleteButton = document.createElement("button");
+  deleteButton.innerText = "削除";
+
   // ulタグの子要素のに各要素を設定
   li.appendChild(span);
+  li.appendChild(completeButton);
+  li.appendChild(deleteButton);
 
   // 未完了リストに追加
   document.getElementById("incomplete-list").appendChild(li);
