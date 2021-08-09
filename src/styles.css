@@ -30,7 +30,7 @@ button:hover {
   cursor: pointer;
 }
 
-.imcomplete-area {
+.incomplete-area {
   background: #c6ffe2;
   width: 400px;
   padding: 8px;
